@@ -1,0 +1,4 @@
+name: world2png
+author: PetteriM1
+version: "1.0"
+main: world2png.Main
