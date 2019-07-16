@@ -33,6 +33,7 @@ public class Main extends PluginBase {
                         graphics.setColor(new Color(getServer().getDefaultLevel().getMapColorAt(spawn.getFloorX() - (X / 2) + x, spawn.getFloorZ() - (Y / 2) + y).getRGB()));
                         graphics.fillRect(x, y, x, y);
                     }
+                    getLogger().info("\u00A7a" + (x * 100 / X) + "% done");
                 }
                 try {
                     File file = new File(getDataFolder() + "/world.png");
