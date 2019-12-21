@@ -2,3 +2,5 @@
 x_size: 1000
 # image height
 y_size: 1000
+# world name
+world: "world"
